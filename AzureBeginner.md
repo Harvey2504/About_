@@ -253,7 +253,7 @@ PS C:\agent> .\run.cmd
 
 
 ## Deploying into aws beanstalk
-###STEP01 (Setup)
+### STEP01 (Setup)
 * Open AWS Dashboard
 * Search for Elastic Beanstalk
 * Click on Create a new application

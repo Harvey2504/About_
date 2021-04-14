@@ -134,6 +134,13 @@ cat initialAdminPassword
 * Open ec2-13-58-37-51.us-east-2.compute.amazonaws.com:8080 on browser
 * Then Install Jenkins and Add More Users If Required
 
+#### Installing docker
+https://docs.docker.com/engine/install/ubuntu/
+#### Installing docker compose
+https://docs.docker.com/compose/install/
+#### Installing Kubectl on Ubuntu Machines
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+
 
 # VS Code Integration for Pipeline Script
 
@@ -196,6 +203,7 @@ Select Create User.
 * Delete default installer
 * Add Installer
 * Chose Extract *zip/.tar.gz as installer
+* Label : Leave it as blank
 * Download URL
 ```
 https://download.java.net/java/GA/jdk11/13/GPL/openjdk-11.0.1_linux-x64_bin.tar.gz
@@ -256,6 +264,9 @@ Charset : UTF-8
 
 ## Throttle Build
 Link : https://plugins.jenkins.io/throttle-concurrents/#documentation
+
+
+
 
 
 
