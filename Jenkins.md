@@ -134,12 +134,24 @@ cat initialAdminPassword
 * Open ec2-13-58-37-51.us-east-2.compute.amazonaws.com:8080 on browser
 * Then Install Jenkins and Add More Users If Required
 
-#### Installing docker
+#### Installing docker on Ubuntu Machines
 https://docs.docker.com/engine/install/ubuntu/
-#### Installing docker compose
+```
+After Installing :
+chmod 777 /var/run/docker.sock
+```
+#### Installing docker compose on Ubuntu Machines
 https://docs.docker.com/compose/install/
 #### Installing Kubectl on Ubuntu Machines
 https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+
+
+
+### Installing Jenkins on Azure Ubuntu VM
+Link : https://docs.microsoft.com/en-us/azure/developer/jenkins/configure-on-linux-vm
+```
+Rememnber to open the port as per documentation
+```
 
 
 # VS Code Integration for Pipeline Script
