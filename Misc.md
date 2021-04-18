@@ -28,4 +28,7 @@ Ctrl+Shift+V
 
 #### notepad.pw
 
-## 4.Coming Soon
+## 4.Installing Choclatey
+#### https://docs.chocolatey.org/en-us/choco/setup
+
+## 5.
