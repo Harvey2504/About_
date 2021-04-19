@@ -20,7 +20,7 @@ sudo apt update
 
 wget https://packages.chef.io/files/stable/chef-workstation/21.2.278/ubuntu/20.04/chef-workstation_21.2.278-1_amd64.deb
 
-dpkg -i chef-workstation_21.2.278-1_amd64.deb
+sudo dpkg -i chef-workstation_21.2.278-1_amd64.deb
 
 ```
 * Verify Installation
@@ -37,7 +37,7 @@ chef -v
 * Then copy the unzipped File into the workstation
 * Make sure you have the .pem file in the same folder from where u want to copy a file
 ```
-scp -r -i "awskeypair.pem" chef-repo/ ubuntu@ec2-3-12-36-226.us-east-2.compute.amazonaws.com:~/^
+scp -r -i "awskeypair.pem" chef-repo/ ubuntu@ec2-3-12-36-226.us-east-2.compute.amazonaws.com:~/
 ```
 * Copy the .pem file to that folder and make sure the path to be pasted in is correct
 ```
