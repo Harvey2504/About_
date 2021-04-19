@@ -100,7 +100,7 @@ service 'nginx' do
  action [:enable,:start]
 end
 ```
-
+#### NOTE: You can change versions of cookbooks in metadata.rb in your cookbook folder if required
 #### Chef Cookbook Recipe Tutorial for beginners
 https://www.youtube.com/watch?v=wY6xg7CI5Xw&list=PLsgnv1SN76IJIiBg0e1lAIIAW1xZXPHF1&index=4
 
