@@ -228,13 +228,13 @@ knife environments from file dev.json
    }
 }
 ```
-* Run This Command to update Environemnet :  
+* Run This Command to update Environemnet from environments directory:  
 ```
 knife environments from file prod.json
 ```
 
 * Select the environment from the CHEF Manage Site manually for each node
-* Click on Node > details Tab > Environment Menu
+* Click on Node > Details Tab > Environment Menu
 * Select first node for Development and save it.
 * Select second node for Production and save it.
 
