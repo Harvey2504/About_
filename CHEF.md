@@ -43,8 +43,9 @@ scp -r -i "awskeypair.pem" chef-repo/ ubuntu@ec2-3-12-36-226.us-east-2.compute.a
 ```
 scp -r -i "awskeypair.pem" awskeypair.pem ubuntu@ec2-3-12-36-226.us-east-2.compute.amazonaws.com:~/chef-repo
 ```
-* This will help to communicate workstation and server
-* Use this cmd for verifying ssl configuration for the CHEF Infra Server
+* These all steps will help to communicate workstation and server
+
+* Use this cmd for verifying ssl configuration for the CHEF Infra Server (Run this from the chef-repo directory)
 ```
 knife ssl check
 ```
