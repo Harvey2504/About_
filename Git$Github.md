@@ -35,6 +35,8 @@ git branch feature1 (creates only)
 
 git branch
 
+git branch -a
+
 git checkout master
 
 git branch -m main (renamed)
