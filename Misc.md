@@ -31,5 +31,7 @@ Ctrl+Shift+V
 ## 4.Installing Choclatey
 #### https://docs.chocolatey.org/en-us/choco/setup
 
-## 5. Search in cmd
+## 5. Search a previous command
+```
 Ctrl + R
+```
